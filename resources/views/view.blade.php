@@ -42,7 +42,7 @@
                <td>
            </form>
                         
-               <a href="/edit/{{$user->id}}">EDIT</a>
+               <a href="/edit/{{$user->id}}">EDIT ME</a>
             
              </td>
              
