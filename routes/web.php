@@ -38,3 +38,7 @@ Route::get('encrypt',[TestController::class,'ecrypt']);
 // Route::get('image-upload', [ ImageUploadController::class, 'imageUpload' ])->name('image.upload');
 // Route::post('image-upload', [ ImageUploadController::class, 'imageUploadPost' ])->name('image.upload.post');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
